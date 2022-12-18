@@ -1,0 +1,17 @@
+
+.Nav-Bar {background-color: #84A59D;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px 30px
+         }
+
+.Nab-Bar-List {list-style-type: none;
+               display: flex;
+               gap: 50px;
+               }
+
+.Nab-Bar-List a{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color:#F5CAC3;
+                font-weight: 500;
+                text-decoration: none;}
