@@ -15,3 +15,76 @@
                 color:#F5CAC3;
                 font-weight: 500;
                 text-decoration: none;}
+
+
+
+#hero {margin-top: 65px;
+       padding: 70px 0px; 
+       max-width: 1200px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}       
+       
+.hero-info {display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 50%;}
+
+.hero-info h1 {font-size: 48px;
+               width: 80%;
+               min-width: 500px;
+               font-weight: 800;
+               color:#F6BD60;}
+
+.hero-info p {font-size: 25px;
+              width: 70%;
+              color:#F5CAC3 ;}
+
+.hero-info p > span {font-weight: 800;}
+
+
+.hero-info a {color:#F6BD60;
+              background-color: #84A59D;
+              width: 120px;
+              padding: 8px 0px;
+              border-radius: 10px;
+              font-size: 14 px;
+              text-align:center;
+              text-decoration: none;}
+              
+main {background-color:#264653;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;}
+
+.hero-card {width: 300px;
+            background-color:#264653;
+           padding: 20px;
+           border-radius: 15px;
+           display: flex;
+           flex-direction: column;}
+
+
+.info {width: 300px;
+       height: 290px;
+       padding: 40px 30px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       background-color: #264653;
+       gap: 20px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+
+.info h2 {font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color:#F6BD60;}
+
+.info p {color:#F5CAC3 ;}
