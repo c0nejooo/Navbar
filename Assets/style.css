@@ -1,20 +1,25 @@
 *{margin:0%; padding: 0%;}
+
+ header{position: sticky;
+        top: 0%;}
+
+
 .Nav-Bar {background-color: #84A59D;
           display: flex;
           justify-content: space-between;
           align-items: center;
-          padding: 0px 30px
-         }
+          height: 100px;
+          padding: 0px 30px;}
 
 .Nab-Bar-List {list-style-type: none;
                display: flex;
-               gap: 50px;
-               }
+               gap: 50px;}
 
 .Nab-Bar-List a{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 color:#F5CAC3;
                 font-weight: 500;
-                text-decoration: none;}
+                text-decoration: none;
+                }
 
 
 
@@ -44,7 +49,8 @@
 .hero-info p > span {font-weight: 800;}
 
 
-.hero-info a {color:#F6BD60;
+.hero-info a {flex-direction: row;
+              color:#F6BD60;
               background-color: #84A59D;
               width: 120px;
               padding: 8px 0px;
@@ -52,19 +58,22 @@
               font-size: 14 px;
               text-align:center;
               text-decoration: none;}
-              
+
+
 main {background-color:#264653;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    width: 100%;}
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      width: 100%;}
 
 .hero-card {width: 300px;
             background-color:#264653;
            padding: 20px;
-           border-radius: 15px;
+           border: 6px solid #F5CAC3;
+           border-radius: 3rem;
+           margin: 2%;
            display: flex;
            flex-direction: column;}
 
@@ -74,7 +83,7 @@ main {background-color:#264653;
        padding: 40px 30px;
        display: flex;
        flex-direction: column;
-       align-items: center;
+       align-items: center; 
        text-align: center;
        background-color: #264653;
        gap: 20px;
@@ -87,4 +96,85 @@ main {background-color:#264653;
     font-weight: 800;
     color:#F6BD60;}
 
-.info p {color:#F5CAC3 ;}
+.info p {color:#F5CAC3;
+         font-size: px;}
+
+.Cards {color: #F6BD60;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 2%;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.contenedor-cards {display: flex;
+                   gap: 1.25rem;
+                   padding: 0;
+                   margin: 0;
+                   text-decoration: none;
+                   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.card {display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       width: 14.75rem;
+       padding: 1.300rem, 0.60rem;
+       gap: 0.938rem;
+       border: 6px solid #F5CAC3;
+       border-radius: 3rem;
+       margin: 2%;
+       transition: all 0.5s;}
+
+.contac{display: flex;
+       color: #F6BD60;
+       justify-content: center;
+       gap: 10rem;
+       padding: 0;
+       margin: 0;
+       text-decoration: none;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.form input {display: flex;
+             padding: 0;
+             margin: 0;
+             text-decoration: none;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             border: none;
+             width: 24rem;
+             padding: 1% 2%;
+             gap:1rem;}
+
+.submit {background-color: #F6BD60;
+        border-radius: 15px;
+        color:  white;
+        font-size: 17px;
+        cursor: pointer;
+       }
+
+
+.Geo{display: flex;
+     align-items: center;
+     width: 100%;
+     height: 80%;
+     padding-bottom: 23%;}
+       
+
+.logo-foot{display: flex;
+           flex-direction: column;
+           align-items: center;
+           background-color: #84A59D;}
+
+
+.redes1{display: flex;
+         flex-direction: row;
+         align-items: center;
+         background-color: #84A59D;} 
+
+.correo{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #F6BD60;
+       font-weight: 500;
+                text-decoration: none;}

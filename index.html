@@ -10,13 +10,13 @@
 <body>
     <header>
     <nav class="Nav-Bar">
-        <img src="./Assets/ULTIMA FASEEEEE.png" alt="logo">
+        <img src="./Assets/fase final (1) (1).png" alt="logo" class="logo1">
         <ul class="Nab-Bar-List">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Promos!</a></li>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#Sobrenosotros">Nosotros</a></li>
+            <li><a href="#contacto1">Contacto</a></li>
+            <li><a href="#cardss">Shop</a></li>
+            <li><a href="#cardss">Promos!</a></li>
         </ul>
     </nav>
     </header>
@@ -27,21 +27,71 @@
                 <p>
                 Somos <span>Mundo Benito </span>, el unico Pet Shop enfocado 100% hacia cobayos. 
                 </p>
-                <a href="">Sobre Nosotros</a>
-                <a href="">Contacto</a>
+                <a class="botones" href="">Sobre Nosotros</a>
+                <a class="botones" href="">Contacto</a>
             </div> 
             <div class="hero-card">
              <img src="./Assets/benito comiendo.jpg" alt="Cobayo">
             </div>
            </section>
 
-        <section class="info">
+        <section id="Sobrenosotros" class="info">
             <h2>Quienes Somos</h2>
             <p>Mundo Benito es un Pet Shop exclusivo para cobayos, fundado en 2018, con 5 años en el mercado. Podes encontranos en la ciudad Avellaneda (Santa Fe).
             <br><br>
                Tenemos todo lo que tu pequeño necesita desde heno, alfalfa, piedras minerales, alimento balanceado y mucho mas. No dudes en contactarnos !!!
             </p>
         </section>
+        <section id="cardss" class="Cards">
+            <h2>Servicios</h2>
+            <p>Conoce los diferentes beneficios de comprar en nuestro local.</p>
+            <div class="contenedor-cards">
+                <div class="card"><img src="./Assets/icons8-veterinarian-65.png" alt="vet">
+                <h3>Clinicas Veterinarias.</h3>
+                <p>Tenemos contacto y descuentos con los mejores veterionarios especializados en cobayos.</p>
+            </div>
+                <div class="card"><img src="./Assets/icons8-tarjeta-de-fidelidad-48.png" alt="fidelidad">
+                <h3>Tarjeta de fidelidad.</h3>
+                <p>Con nuestra tarjeta de fidelidad vas a tener descuestos y promociones todo el año.</p>
+                </div>
+                <div class="card"><img src="./Assets/icons8-online-support-64.png" alt="soporte">
+                <h3>Atención online.</h3>
+                <p>Contamos con soporte y atención al cliente las 24 horas del dia.</p>
+                </div>
+            </div>
+        </section>
+        <br><br>
+        <section id="contac" class="contac">
+            <div id="contacto1" class="contacto">
+            <form class="form">
+                <h2>Contactanos</h2>
+                <label for="Nombre">Nombre:</label><br>
+                <input type="text" id="name" placeholder="Ingrese su nombre"><br>
+                <label for="Apellido">Apellido:</label><br>
+                <input type="text" id="Apellido" placeholder="Ingrese su nombre"><br>
+                <label for="Correo">Correo:</label><br>
+                <input type="email" id="Correo" placeholder="Ingrese su email"><br>
+                <label for="text">Deje su comentario.</label><br>
+                <textarea name="text" id="text" cols="30" rows="5"></textarea><br><br>
+                <input type="submit" value="Enviar" class="submit">
+            </form>
+            </div>
+            <div class="Geo">
+            <iframe src="https://www.google.com/maps/embed?pb=!3m2!1ses-419!2sar!4v1673564726390!5m2!1ses-419!2sar!6m8!1m7!1sMHktheJeQvWxgoyRv3Vksw!2m2!1d-29.118624191565!2d-59.65877725484209!3f117.7491797298121!4f1.3751161382266304!5f0.7820865974627469"
+             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="logo-foot">
+        <img src="./Assets/ULTIMA FASEEEEE.png" alt="">
+        </div>
+        <div class="redes1">
+            <a href="https://www.facebook.com/" target="_blank"><img src="./Assets/icons8-facebook-48.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./Assets/icons8-instagram-48.png" alt="instagram"></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="./Assets/icons8-whatsapp-48.png" alt="whatsapp"></a>
+            <a class="correo" href="https://mail.google.com/" target="_blank">mundobenito@gmail.com</a>
+        </div>
+    </footer>
 </body>
 </html>
